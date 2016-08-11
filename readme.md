@@ -7,7 +7,7 @@ A RabbitMQ worker queues **PLAYGROUND**.
 
 2) run <code>npm install</code> in the root directory  
 
-3) run <code>docker-compose up</code> in the root directory in one terminal window and then wait for everything to start up before moving on. You could just move on right away - but then nothing will work and we will all be sad.  
+3) run <code>docker-compose up</code> in the root directory and then wait for everything to start up before moving on. You could just move on right away - but then nothing will work and we will all be sad.  
 
 4) navigate to the root directory in another terminal window and run <code>node exercise.js</code> (requires **node.js v4.4.4 or newer**)
 
