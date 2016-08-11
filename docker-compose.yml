@@ -1,0 +1,52 @@
+version: '2'
+services:
+  worker:
+    build: ./worker
+    volumes:
+     - ./worker:/app/src
+    depends_on:
+     - the-rabbit
+     - producer
+    links:
+     - the-rabbit
+  worker2:
+    build: ./worker
+    volumes:
+     - ./worker:/app/src
+    depends_on:
+     - the-rabbit
+     - producer
+    links:
+     - the-rabbit
+  worker3:
+    build: ./worker
+    volumes:
+     - ./worker:/app/src
+    depends_on:
+     - the-rabbit
+     - producer
+    links:
+     - the-rabbit
+  worker4:
+    build: ./worker
+    volumes:
+     - ./worker:/app/src
+    depends_on:
+     - the-rabbit
+     - producer
+    links:
+     - the-rabbit
+  the-rabbit:
+    image: rabbitmq:3-management
+    ports:
+      - "8080:15672"
+  producer:
+    build: ./producer
+    volumes:
+     - ./producer/:/app/src
+    ports:
+      - "1337:1337"
+    depends_on:
+     - the-rabbit
+    links:
+     - the-rabbit

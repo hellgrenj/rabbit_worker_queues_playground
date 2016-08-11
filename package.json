@@ -1,0 +1,16 @@
+{
+  "name": "rabbit_worker_queues_playground",
+  "version": "1.0.0",
+  "description": "demonstrate rabbitmq worker queues",
+  "dependencies": {
+    "hulken": "1.2.0",
+    "colors": "1.1.2",
+    "setcountdown": "0.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johan Hellgren <hellgrenj@gmail.com> (johanhellgren.se)",
+  "license": "MIT"
+}
