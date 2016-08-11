@@ -5,7 +5,7 @@ A RabbitMQ worker queues **PLAYGROUND**.
 #### Get up and running
 1) clone this repository
 
-2) run <code>npm install</code> in the root directory, in the ./producer directory and in the ./worker directory   
+2) in the root directory first run <code>npm install</code> and then <code>node install.js</code>
 
 3) run <code>docker-compose up</code> in the root directory and then wait for everything to start up before moving on. You could just move on right away - but then nothing will work and we will all be sad.  
 
