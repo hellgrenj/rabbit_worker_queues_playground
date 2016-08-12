@@ -6,7 +6,7 @@ const runHulkenContinuously = function() {
         method: 'POST',
         path: '/putonq',
         payload: {
-            query: '::random letters 10'
+            message: '::random letters 10'
         },
         expectedTextToExist: 'placed the message on the worker queue'
     }];

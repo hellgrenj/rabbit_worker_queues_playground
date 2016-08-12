@@ -13,7 +13,7 @@ app.get('/putonq/:message', (req, res) => {
 });
 
 app.post('/putonq', (req, res) => {
-    rabbit.sendToQueue(req.body.query);
+    rabbit.sendToQueue(req.body.message);
     res.send('placed the message on the worker queue');
 });
 
