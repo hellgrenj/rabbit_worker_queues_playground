@@ -3,7 +3,7 @@
 A RabbitMQ worker queues **PLAYGROUND**.
 
 #### Prerequisites
-* node.js v4.4.4 or newer
+* node.js v6.9.1 
 * docker 1.12.0 or newer including docker-compose
 
 #### Get up and running

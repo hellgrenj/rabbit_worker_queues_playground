@@ -11,7 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall" : "node install.js"
+    "postinstall": "node install.js"
   },
   "author": "Johan Hellgren <hellgrenj@gmail.com> (johanhellgren.se)",
   "license": "MIT"
