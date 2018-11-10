@@ -22,4 +22,4 @@ setTimeout(() => {
         app.listen(PORT);
         console.log('Running on http://localhost:' + PORT);
     });
-}, 5000);
+}, 10000);

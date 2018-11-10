@@ -3,4 +3,4 @@ setTimeout(() => {
   rabbit.init(() => {
       rabbit.listenOnWorkerQueue();
   });
-},5000);
+},10000);
